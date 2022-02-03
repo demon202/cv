@@ -3,45 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Author" content="Saad Qureshi">
-    <title>Saad Qureshi's Personal Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon-16x16.ico"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>Saad Qureshi CV</title>
 </head>
 <body>
-    <table cellspacing = "20">
-        <tr>
-            <td><img src="images/profilepic.jpeg" alt="profile-pic-of-Saad-Qureshi" height="125" width="125"></td>
-            <td><h1>Saad Qureshi</h1>
-                <p>This <em> is to test the code</em></p>
-                <p>This is a brief summary of how things appear in the HTML document</p>
-               
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h2>Skills</h2>
-    <table cellspacing = "10">
-        <tr>
-            <td>HTML</td>
-            <td><img src="images/5stars.png" alt="5 Star skill" height="20" width="100"></td>
-            <td>JavaScript</td>
-            <td><img src="images/3stars.png" alt="3 stars skill" height="20" width="100"></td>                          
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td><img src="images/4stars.png" alt="4 star skill" height="20" width="100"></td>
-            <td>C#</td>
-            <td><img src="images/5stars.png" alt="5 Star skill" height="20" width="100"></td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Books and teaching</h3>
-    <ul>
-        <li><a href="https://www.cambridgeinternational.org/">O/A-levels</a></li>
-        <li><a href="https://futurestudents.yorku.ca/program/computer-science">Com sci University</a></li>
-        <li>web dev udemy</li>
-    </ul>
-    <hr>
-    <h3><a href="hobbies.html">My Hobbies</a></h3>
-    <h4>If you want to <a href="contact.html"><strong>Reach</strong></a> me</h4>
+    <div class="top-container">
+        <img class="topImage" src="images/cloud.png" alt="cloud-image">
+        <h1>Saad Qureshi</h1>
+        <h2 class="subtitle">Your Friendly <span class="pro">Pro</span><span class="gamer">gamer</span>grammer.</h2>
+        <img class="bottomImage" src="images/cloud.png" alt="cloud-image">
+        <img src="images/mountain.png" alt="mountain-image" height="357px" width="598px">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img class="profilepic" src="images/profile.jpg" alt="profile-image">
+          <h2>Hello there!</h2>
+          <p>Glad you came across this website, Allow me to introduce myself.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="stackImg" src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" alt="code-gif">
+            <h3>Full Stack</h3>
+            <p>I wanted to learn how to change the world by developing websites to make the web more beautiful.
+                In the process I have gained experience in designing and implementing modern solutions in mobile and web applications</p>
+          </div>
+          <hr class="split">
+          <div class="skill-row">
+            <img class="gameImg" src="https://media.giphy.com/media/Q8rr1XbPx9gHWKCwsh/giphy.gif" alt="Game-gif">
+            <h3>Game Dev</h3>
+            <p>I loved playing video games ever since I was a kid. I wanted to contribute to the industry and join the gaming world from the development side. 
+                I am humbled to have acquired the skills necessary and keep the passion while developing fun and challenging games both as a developer and as a gamer! </p>
+          </div>
+        </div>
+        <hr class="split">
+        <div class="contact-me">
+          <h2>Feel free to contact</h2>
+          <h3>It was a pleasure having you on my site!</h3>
+          <p>If you wish to reach you, below are some of the ways you can:</p>
+          <a class="btn" href="mailto:saadqureshi50@yahoo.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://demon202.itch.io/">Itch.io</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copyright">© 2022 Saad Qureshi.</p>
+      </div>
+        
 </body>
 </html>
