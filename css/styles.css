@@ -55,6 +55,7 @@ hr {
     color: #325288;
 }
 
+
 .hello {
     padding: 0;
 }
@@ -198,6 +199,7 @@ hr {
     body {
         font-size: 20px;
         font-weight: 400;
+        display: inline-block;
     }
 
     .contact-me {
