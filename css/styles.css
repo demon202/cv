@@ -8,13 +8,6 @@ body {
     text-align: center;
 }
 
-h1 {
-    margin: 190px auto 0 auto;
-    font-family: 'Comforter', cursive;
-    font-size: 5.625rem;
-    color: #FAEEE7;
-    line-height: 2;
-}
 
 h2 {
     font-size: 2.5rem;
@@ -55,6 +48,13 @@ hr {
     color: #325288;
 }
 
+.name {
+    margin: 190px auto 0 auto;
+    font-family: 'Comforter', cursive;
+    font-size: 5.625rem;
+    color: #FAEEE7;
+    line-height: 2;
+}
 
 .hello {
     padding: 0;
@@ -66,9 +66,11 @@ hr {
     margin: 0 20px 100px;
 
 }
-.skillsTitle{
+
+.skillsTitle {
     padding-top: 50px;
 }
+
 .copyright {
     font-size: 0.75rem;
     padding: 20px 0;
@@ -184,6 +186,14 @@ hr {
 }
 
 @media (max-width: 753px) {
+    body {
+        font-size: 20px;
+        font-weight: 400;
+        display: inline-block;
+        background-color: #FAEEE7;
+
+    }
+
     .profile {
         font-size: 20px;
     }
@@ -194,12 +204,6 @@ hr {
 
     .subtitle {
         text-align: center;
-    }
-
-    body {
-        font-size: 20px;
-        font-weight: 400;
-        display: inline-block;
     }
 
     .contact-me {
