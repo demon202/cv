@@ -146,7 +146,9 @@ hr {
 }
 
 .projectImg{
-    width: 15%;
+    width: 16%;
+    float: left;
+    padding-right: 30px;
 }
 
 .btn {
@@ -223,6 +225,12 @@ hr {
         color: #FAEEE7;
     }
     p {
+        color: #54BAB9;
+    }
+    ul {
+        padding: 0%;
+    }
+    li {
         color: #54BAB9;
     }
     a {
