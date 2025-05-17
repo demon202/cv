@@ -145,6 +145,10 @@ hr {
     padding: 20px 30px 0 0;
 }
 
+.projectImg{
+    width: 15%;
+}
+
 .btn {
     background: #24A19C;
     background-image: -webkit-linear-gradient(top, #24A19C, #215270);
@@ -194,6 +198,10 @@ hr {
     .gameImg {
         width: 40%;
     }
+    .projectImg {
+        width: 30%;
+        margin-left: 50px;
+    }
     .subtitle {
         text-align: center;
     }
@@ -230,6 +238,9 @@ hr {
         color: #FAEEE7;
     }
     .subtitle{
+        color: #FAEEE7;
+    }
+    .projects{
         color: #FAEEE7;
     }
   }
