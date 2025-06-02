@@ -36,7 +36,7 @@
                 <hr class="split">
                 <p class="projects">Latest Project:</p> 
                 <a href="https://ratstudio.co/"><img class="projectImg" src="images/Rat.png"></img></a>
-                <p class="projects"><a href="https://ratstudio.co/">Ratstudio.co<br> Designed and developed the official website for RAT Studio.</a>
+                <p class="projects"><a href="https://ratstudio.co/"></a>Ratstudio.co<br> Designed and developed the official website for RAT Studio.
                   <ul>
                     <li>Developed using HTML, CSS, and JavaScript to create a fully custom experience</li>
                     <li>Focused on clean typography, subtle animations, and intuitive navigation</li>
@@ -76,7 +76,9 @@
         <a class="footer-link" href="Resume/Saad Qureshi - CV.pdf">Résumé</a>
         <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
         <a class="footer-link" href="https://demon202.itch.io/">Itch.io</a>
-        <p class="copyright">© 2025 Saad Qureshi.</p>
+        <p class="copyright">© <span id="year"></span> Saad Qureshi.
+          <script>document.getElementById("year").innerText = new Date().getFullYear();</script>
+        </p>
       </div>
         
 </body>
