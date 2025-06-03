@@ -146,13 +146,34 @@ hr {
 }
 
 .project-Img{
-    width: 16%;
+    width: 25%;
     float: left;
-    padding-right: 30px;
+    padding-right: 5%;
 }
 .project-Img:hover{
     transform: scale(1.25);
   transition: .5s ease;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  counter-reset: project-counter;
+}
+
+.project-item {
+  margin-bottom: 2rem;
+}
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff; /* or your preferred color */
+  text-decoration: none;
+  margin: 0;
+}
+.project-description {
+  margin-left: calc(80px + 1rem); /* match the image width + gap */
+  margin-top: 0.5rem;
 }
 
 
@@ -205,9 +226,10 @@ hr {
     .gameImg {
         width: 40%;
     }
-    .projectImg {
+    .project-Img {
+        
         width: 30%;
-        margin-left: 50px;
+       margin-top: 10%;
     }
     .subtitle {
         text-align: center;
