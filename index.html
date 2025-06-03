@@ -9,70 +9,83 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b0bbb5a52f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b0bbb5a52f.js" crossorigin="anonymous"></script>   
     <title>Saad Qureshi CV</title>
 </head>
 <body>
+  <!--Header bar-->
+  <div class="header-container" style="transform: translateY(0px);">
+    <div class="header-contents"></div>
+    
+      <div id="menubar-title" class="noselect">
+        <span class="name-header">Saad Qureshi</span>
+      </div>
+      <!-- MENU BAR ITEMS -->
+					<div class="">
+						<div id="menubar-items-container">
+							<div class="menubar-item">
+								<div class="noselect menubar-item-text">
+									<span><i class="fa fa-lightbulb-o" aria-hidden="true"></i><a href="#profile">ABOUT</a></span>
+								</div>
+							</div>
+							<div class="menubar-item">
+								<div class="noselect menubar-item-text">
+									<span><i class="fa fa-users" aria-hidden="true"></i><a href="#skills">PROFESSIONAL PROJECTS</a></span>
+								</div>
+							</div>
+							<div class="menubar-item" data-target-element="#personal-work">
+								<div class="noselect menubar-item-text">
+									<span><i class="fa fa-heart" aria-hidden="true"></i>   PERSONAL WORK</span>
+								</div>
+							</div>
+								<a href="https://drive.google.com/file/d/1gcLPabIr_IWKEtPgbN7EWtRCv8FvtYyj/view?usp=drive_link" style="border: none; text-decoration: none;" target="_blank" class="menubar-item">
+									<span class="noselect menubar-item-text"><i class="fa-regular fa-file" aria-hidden="true"></i>   RÉSUMÉ</span>
+								</a>
+							
+							<div class="menubar-item">
+								<div class="noselect menubar-item-text">
+									<span><i class="fa fa-comments" aria-hidden="true"></i><a href="#contact">CONTACT</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End of MENU BAR ITEMS -->
+      
+  </div>
+  <!--Header bar END-->
     <div id="top" class="top-container">
-        <img class="top-Image" src="images/cloud.png" alt="cloud-image">
-        <h1 class="name">Saad Qureshi</h1>
-        <h2 class="subtitle">Your Friendly <br> Pro<span class="gamer">gamer</span>grammer.</h2>
-        <img class="bottomImage" src="images/cloud.png" alt="cloud-image">
-        <img class="mountain-img" src="images/mountain.png" alt="mountain-image">
+        <img class="topCloud" src="images/cloud.png" alt="cloud-image">
+        <img class="bottomCloud" src="images/cloud.png" alt="bottom-cloud-image">
+        <!-- VIDEO -->       
+        <video class="video" muted="muted" autoplay loop>
+          <source src="video/hero1.mp4" type="video/mp4">
+          <source src="video/hero1.ogv" type="video/ogg">
+          <img class="mountain-img" src="images/mountain.png" title="Your browser does not support HTML video." alt="mountain-image">
+          </video>
+          <!--do nothing-->  
+           
+    </div>
+    <div class="top2-container">
+      <h1 class="name">Saad Qureshi</h1>
+      <h2 class="subtitle">Your Friendly <br> Pro<span class="gamer">gamer</span>grammer.</h2>
     </div>
     <div class="middle-container">
-        <div class="profile">
+        <div id="profile" class="profile">
           <img class="profilepic" src="images/profile.jpg" alt="profile-image">
-          <h2 class="hello">Hello there!</h2>
-          <p class="greetings">Glad you came across this website, Allow me to introduce myself.</p>
+          <h2 class="hello">About Me</h2>
+          <p class="greetings">Hey, I’m Saad, a programmer and developer with a passion for games! Since the age of 9, I’ve always enjoyed modifying existing software—whether it’s operating system mods or game modding. This curiosity led me to develop a keen interest in understanding how these things truly work. I graduated from York University with a bachelor’s degree in computer science.
+            <p class="greetings">Here, you’ll find some of the projects I’ve contributed to, alongside personal projects I’ve worked on just for fun and sharing! With a solid foundation in effective communication, I’m not one to leave projects hanging—I’m all about finding solutions and seeing things through. Within teams, I bring empathy and patience to the table, motivating and collaborating with others. Problem-solving? It’s my thing! And I’m not just focused on my own growth—I actively contribute to others’ success too. Plus, I’m open to fresh ideas and super adaptable. Oh, and did I mention I’ve got a passion for innovation? Let’s make things happen!</p>
+            </p>
         </div>
         <hr>
-        <div class="skills">
-          <h2 class="skills-title">My Skills.</h2>
+        <div id="skills" class="skills">
+          <h2 class="skillsTitle">My Skills.</h2>
           <div class="skill-row">
-            <img class="stack-img" src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" alt="code-gif">
+            <img class="stackImg" src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" alt="code-gif">
             <h3>Full Stack</h3>
             <p>I wanted to learn how to change the world by developing websites to make the web more beautiful.
                 In the process I have gained experience in designing and implementing modern solutions in mobile and web applications</p>
-                <hr class="split">
-                <p class="projects">Latest Project:</p>
-                  <ol class="project-list">
-                    <li class="project-item">
-                      <a href="https://demon202.github.io/Qflix/">
-                        <img class="project-Img" src="images/Qflix.png" alt="Qflix Screenshot" />
-                      </a>
-                      <div class="projects">
-                        <a class="project-title" href="https://demon202.github.io/Qflix/">Qflix</a><br />
-                       <div> 
-                        Designed and developed a movie database
-                        <ul>
-                          <li>Built with React, Vite, Tailwind CSS, and NPM for rapid development and responsive design</li>
-                          <li>Integrated Appwrite as the backend to store and display user-searched movies dynamically</li>
-                          <li>Implemented efficient data handling and state management for smooth user experience</li>
-                        </ul>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="project-item">
-                      <a href="https://ratstudio.co/">
-                        <img class="project-Img" src="images/Rat.png" alt="Ratstudio Screenshot" />
-                      </a>
-                      <div class="projects">
-                        <a class="project-title" href="https://ratstudio.co/">Ratstudio.co</a><br />
-                        <div>
-                          Developed the official website
-                        <ul>
-                          <li>Pure <i class="fab fa-html5" style="color: orange;"></i>,
-                              <i class="fab fa-css3-alt"></i>,
-                              <i class="fab fa-js" style="color: yellow;"></i> to create a fully customised experience</li>
-                              <li><i style="color: #C8A2C8;" class="fa-brands fa-php"></i>  to handle form submissions and backend communication</li>
-                          <li>Focused on clean typography, subtle animations, and intuitive navigation to enhance UX </li>
-                          <li>Ensured cross-browser compatibility and mobile responsiveness</li>
-                        </ul>
-                        </div>
-                      </div>
-                    </li>
-                  </ol>
           </div>
           <hr class="split">
           <div class="skill-row">
@@ -80,39 +93,38 @@
             <h3>Game Dev</h3>
             <p>I loved playing video games ever since I was a kid. I wanted to contribute to the industry and join the gaming world from the development side. 
                 I am humbled to have acquired the skills necessary and keep the passion while developing fun and challenging games both as a developer and as a gamer! </p>
-                <hr class="split">
-                <p class="projects">Latest Project:</p> 
-                <a href="https://ratstudiogames.itch.io/willowisp"><img class="project-Img" src="images/icon.jpg"></img></a> 
-                <p class="projects">A fast-paced endless runner featuring procedural level generation and dynamic difficulty scaling.
-                  <ul >
-                    <li>Developed using Unreal Engine 5.4 with Blueprints (visual scripting)</li>
-                    <li>Engineered core gameplay systems: player movement, camera controls, state machines, and responsive UI</li>
-                    <li>Implemented local score-saving using device storage for offline play</li>
-                    <li>Optimized performance for Android devices, ensuring smooth gameplay on low-end hardware</li>
-                    <li>Released on Itch.io to collect user feedback and iterate on game design</li>
-                  </ul>
-                </p>
           </div>
         </div>
         <hr class="split">
         <div class="contact-me">
-          <h2>Feel free to contact</h2>
+          <h2>Contact</h2>
           <h3>It was a pleasure having you on my site!</h3>
-          <p>If you wish to reach you, below are some of the ways you can:</p>
-          <a class="btn" href="mailto:saadqureshi.dev@gmail.com">CONTACT ME</a>
-          <p style="color: white;">saadqureshi.dev@gmail.com</p>
+          <!--<p>If you wish to reach you, below are some of the ways you can:</p>-->
+          <p>Feel free to send me a message here:<a href="mailto:saadqureshi50@yahoo.com?Subject=Hey!" target="_blank"> email:saadqureshi50@yahoo.com</a>, I'll try to respond as quick as I can!</p>
+          <!--<a class="btn" href="mailto:saadqureshi50@yahoo.com">CONTACT ME</a>-->
         </div>
       </div>
       
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="Resume/Saad Qureshi - CV.pdf">Résumé</a>
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://demon202.itch.io/">Itch.io</a>
-        <p class="copyright">© <span id="year"></span> Saad Qureshi.
-          <script>document.getElementById("year").innerText = new Date().getFullYear();</script>
-        </p>
-      </div>
-        
+      <!-- SOCIAL LINKS -->
+			<div id="contact" class="bottom-container">
+				<div id="social-links">
+					<!-- ItchIo -->
+					<a class="social-icon" id="itchio" data-color="#1da1f2" data-friendly="gaming, gaming!" href="https://demon202.itch.io/" target="_blank" style="opacity: 0.6;">
+						<i class="fa-brands fa-itch-io"></i>
+					</a>
+					<!-- LINKEDIN -->
+					<a class="social-icon" id="linkedin" data-color="#8d6cab" data-friendly="Follow me, professionally!." href="https://www.linkedin.com/in/saad-q-46673282/" target="_blank" style="opacity: 0.6;">
+						<i class="fa fa-linkedin"></i>
+					</a>
+					<!-- Resume -->
+					<a class="social-icon" id="resume" data-color="#cd201f" data-friendly="Interesting stuff." href="https://drive.google.com/file/d/1gcLPabIr_IWKEtPgbN7EWtRCv8FvtYyj/view?usp=drive_link" target="_blank" style="opacity: 0.6;">
+						<i class="fa-regular fa-file"></i>
+					</a>
+          <p class="copyright">© <span id="year"></span>
+            <script>
+          document.getElementById('year').textContent = new Date().getFullYear();
+          </script>  Saad Qureshi.</p>
+				</div>
+			</div>
 </body>
 </html>
