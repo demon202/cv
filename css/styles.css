@@ -99,6 +99,13 @@ hr {
 
 }
 
+.resume-container {
+    background-color: #24A19C;
+    margin-top: 5.625rem;
+    padding: 25px 0 25px;
+
+}
+
 .pro {
     text-decoration: double;
 }
@@ -214,7 +221,7 @@ hr {
 }
 
 .footer-link:hover {
- box-shadow: inset 100px 0 0 0 #D96098;
+ box-shadow: inset 180px 0 0 0 #D96098;
   color: white;
 }
 
@@ -276,7 +283,7 @@ hr {
     .top-container {
         background-color: #041C32;
     }
-    .bottom-container{
+    .bottom-container, .resume-container{
         background-color: #041C32;
     }
     .name{
