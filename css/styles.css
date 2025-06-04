@@ -44,6 +44,10 @@ hr {
     color: #325288;
 }
 
+li::marker {
+    color: #D96098;
+}
+
 .name {
     margin: 190px auto 0 auto;
     font-family: 'Comforter', cursive;
@@ -100,10 +104,8 @@ hr {
 }
 
 .resume-container {
-    background-color: #24A19C;
     margin-top: 5.625rem;
-    padding: 25px 0 25px;
-
+    padding: 15px 0 15px;
 }
 
 .pro {
@@ -159,7 +161,7 @@ hr {
 }
 .project-Img:hover{
     transform: scale(1.25);
-  transition: .5s ease;
+    transition: .5s ease;
 }
 
 .project-list {
@@ -312,7 +314,7 @@ hr {
     .top-container {
         background-color: #24A19C;
     }
-    .bottom-container{
+    .bottom-container .resume-container{
         background-color: #24A19C;
     }
     .name{
