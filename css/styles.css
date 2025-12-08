@@ -238,6 +238,9 @@ li::marker {
     .profile {
         font-size: 20px;
     }
+    .profilepic{
+        width: 80%;
+    }
     .gameImg {
         width: 40%;
     }
