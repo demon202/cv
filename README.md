@@ -88,7 +88,7 @@ Visit the portfolio here: [https://demon202.github.io/cv/]
 Feel free to connect or reach out!
 
 - Email: [saadqureshi.dev@gmail.com](mailto:saadqureshi.dev@gmail.com)
-- [LinkedIn](https://www.linkedin.com/)
+- [LinkedIn](https://www.linkedin.com/in/saad-q-46673282/)
 - [Itch.io](https://demon202.itch.io/)
 
 ---
