@@ -1,42 +1,130 @@
-# Saad Qureshi – Personal Portfolio Website 🌐
+# Saad Qureshi | Developer Portfolio
 
-Welcome to the official source code for my personal developer portfolio. This site showcases my experience, skills, and projects in **Web Development** and **Game Development**, built with custom HTML, CSS, and a dash of flair.
+This repository contains the source code for my personal portfolio website.
+It presents my work as a Full Stack Web Developer and Game Developer, including shipped products, production-style projects, and published games.
 
-## 🔗 Live Website
-
-Visit the portfolio here: [https://demon202.github.io/cv/] 
-
----
-
-## 📌 Features
-
-- 🎨 Custom-designed landing page with dynamic and responsive UI
-- 🧑‍💻 Overview of WebDev and GameDev skills
-- 🧩 Latest project showcase with images, GIFs, and links
-- 📜 Résumé download links for both WebDev and GameDev roles
-- 📫 Contact section with mailto integration
-- 📱 Fully responsive layout, works across all screen sizes
-- 🌄 Aesthetic theme with custom assets and GIFs for visual storytelling
+The portfolio itself is intentionally lightweight and handcrafted, while the showcased projects demonstrate modern frameworks, backend services, and game engines used in real-world development.
 
 ---
 
-## 🛠️ Tech Stack
+## Live Portfolio
 
-- **HTML5** – Semantic layout
-- **CSS3** – Styling, animation, and responsiveness
-- **Google Fonts** – Comforter and Work Sans
-- **Font Awesome** – Iconography
-- **GIFs** – Enhanced presentation of skills and interests
-- **Appwrite & React (in projects)** – Used in external showcased apps like `Qflix`
+https://demon202.github.io/cv/
 
 ---
 
-## 📁 Project Structure
+## Professional Summary
 
-```
-📦 Portfolio/
+Computer Science graduate and independent developer with hands-on experience across web and game development.
+
+- Full-stack web applications using React, Next.js, TypeScript, and Appwrite
+- Game development in Unity (C#) and Unreal Engine 5 (Blueprints)
+- Strong focus on performance, clean architecture, and user experience
+- Experience shipping projects to production and public platforms
+
+Seeking roles where technical problem-solving and creative development intersect.
+
+---
+
+## Portfolio Highlights
+
+### Web Development
+
+**Qdrive**  
+Secure cloud file storage platform built with Next.js, React 19, TypeScript, and Appwrite.
+
+- OTP-based authentication and session handling
+- File upload, preview, rename, delete, and download
+- Real-time storage analytics and categorized dashboards
+- Responsive, mobile-first UI using Tailwind CSS and ShadCN
+
+Live demo: https://qdrive.vercel.app/
+
+---
+
+**Qflix**  
+Movie and TV discovery platform built with React, TypeScript, and Appwrite.
+
+- TMDb API integration for metadata and provider availability
+- Real-time search tracking via Appwrite Cloud Functions
+- Progressive Web App support
+- High-performance UI with cached results and instant search
+
+Live demo: https://demon202.github.io/Qflix/
+
+---
+
+**ratstudio.co**  
+Studio website built with HTML, CSS, JavaScript, and PHP.
+
+- Fully responsive layout with animated transitions
+- Scroll-synced video playback and interaction design
+- Backend form handling using PHP
+- Deployed on GoDaddy with Git-based version control
+
+Live site: https://ratstudio.co/
+
+---
+
+### Game Development
+
+**Willowisp**  
+Unreal Engine 5 endless runner released on Itch.io.
+
+- Procedural level generation and difficulty scaling
+- Player movement, camera systems, and UI logic
+- Optimized for Android performance
+
+https://ratstudiogames.itch.io/willowisp
+
+---
+
+**Sunken Disorder**  
+Bullet-hell game developed in Unity using C#.
+
+- Dynamic enemy behavior and pattern systems
+- Player controls, scoring, and health systems
+- Visual effects using Unity particle systems
+
+https://demon202.itch.io/sunken-disorder
+
+---
+
+**Number Masquerade**  
+2D educational puzzle game developed in Unity.
+
+- Randomized number logic and input handling
+- Collaboration with artists to align mechanics and visuals
+- Stability testing and edge-case handling
+
+https://demon202.itch.io/number
+
+---
+
+## Technologies
+
+**Web**
+- JavaScript, TypeScript, HTML, CSS
+- React, Next.js, Node.js
+- Tailwind CSS, ShadCN, Bootstrap
+- Appwrite, REST APIs
+
+**Game Development**
+- Unity (C#)
+- Unreal Engine 5 (Blueprints)
+
+**Tools**
+- Git, GitHub
+- VS Code, Android Studio
+- Blender (basic)
+
+---
+
+## Project Structure
+
+Portfolio/
 ├── css/
-│   └── styles.css               # Main stylesheet
+│   └── styles.css
 ├── images/
 │   ├── cloud.png
 │   ├── mountain.png
@@ -47,57 +135,33 @@ Visit the portfolio here: [https://demon202.github.io/cv/]
 ├── Resume/
 │   ├── Saad_Qureshi_WebDev_Resume.pdf
 │   └── Saad_Qureshi_GameDev_Resume.pdf
-├── index.html                   # Main webpage
-└── favicon-16x16.ico            # Favicon
-```
+├── index.html
+└── favicon-16x16.ico
 
 ---
 
-## 🚀 How to Use
+## Running Locally
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
+1. Clone the repository
+   git clone https://github.com/demon202/demon202.github.io.git
 
-2. **Navigate into the directory**  
-   ```bash
-   cd your-repo-name
-   ```
+2. Open the project
+   cd demon202.github.io
 
-3. **Open `index.html` in your browser**  
-   Just double-click or use Live Server if you're using VS Code.
+3. Open index.html in a browser or use Live Server
 
 ---
 
-## 🧩 Projects Highlighted
+## Contact
 
-- [**Qflix**](https://demon202.github.io/Qflix/)  
-  A modern movie database built with React, Tailwind, and Appwrite.
-
-- [**Ratstudio.co**](https://ratstudio.co/)  
-  A handcrafted studio website using raw HTML/CSS/JS + PHP backend.
-
-- [**Willowisp**](https://ratstudiogames.itch.io/willowisp)  
-  A UE5 endless runner game released on Itch.io, optimized for Android.
+- Email: saadqureshi.dev@gmail.com
+- LinkedIn: https://www.linkedin.com/in/saad-q-46673282/
+- GitHub: https://github.com/demon202
+- Itch.io: https://demon202.itch.io/
 
 ---
 
-## 📬 Contact
+## License
 
-Feel free to connect or reach out!
-
-- Email: [saadqureshi.dev@gmail.com](mailto:saadqureshi.dev@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/saad-q-46673282/)
-- [Itch.io](https://demon202.itch.io/)
-
----
-
-## 📝 License
-
-This project is open-source and available under the [MIT License](LICENSE).  
-Feel free to fork, modify, or contribute!
-
----
-
-> Designed & built with passion by **Saad Qureshi** 🚀
+This project is licensed under the MIT License.
+Forking and reuse are permitted.
